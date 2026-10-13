@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "additionalDirectories": [
+      "D:/GitHub/C2BrowserApp",
+      "D:/GitHub/fw_c2_gen2"
+    ],
+    "allow": [
+      "Read(D:/GitHub/C2BrowserApp/**)",
+      "Read(D:/GitHub/fw_c2_gen2/**)"
+    ],
+    "deny": [
+      "Edit(D:/GitHub/C2BrowserApp/**)",
+      "Edit(D:/GitHub/fw_c2_gen2/**)"
+    ]
+  }
+}
